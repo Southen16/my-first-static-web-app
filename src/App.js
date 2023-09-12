@@ -1,12 +1,14 @@
-import React from 'react';
 import './App.css';
-import LabPic from './Lab1.jpg';
+import Lab1Image from './Lab1.jpg'; 
 
 function App() {
   return (
     <div>
-      <p>I did my homework!</p>
-      <img src={LabPic} alt="Lab Picture" />
+      <p>
+        I did my homework!
+      </p>
+      <img src={Lab1Image} alt="Lab1"/>
+
     </div>
   );
 }
