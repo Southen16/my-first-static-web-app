@@ -1,7 +1,8 @@
 import "./Font.css";
+import pic from './itc.png'; 
 const Font = () => {
   return (
-    <div>
+    <div class="description">
       <h1>
         How to provide a particular font to a web visitor's browser when they
         request it from your server.
@@ -15,6 +16,7 @@ const Font = () => {
           web Fonts website
         </a>
       </p>
+      <hr/> 
       <h2>Give me Fonts </h2>
       <hr/> 
       <p>
@@ -44,7 +46,10 @@ const Font = () => {
           and i also configured the source url by using the following code
           <p class="source">src: url("Sandler Trial.otf")format("woff2");</p>
         </li>
+        <li>we are formatting  <code>".otf"</code> file to <code> "woff2" </code> beacuse every major browser supports this verion</li>
       </ol>
+      <p>Then following result page is attached below</p>
+      <img src={pic} width="1000" height="1000" alt="final output" ></img>
     </div>
   );
 };

@@ -1,7 +1,12 @@
 h1,h2{
     text-align: center;
-    color: brown;
+    color: white;
+    background-color: black;
 }
 .source{
     color:violet;
+}
+.description{
+    color: white;
+    background-color: black;
 }
