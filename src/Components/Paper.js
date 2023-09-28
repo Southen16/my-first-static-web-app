@@ -1,8 +1,10 @@
 import "./Paper.css";
+import pic from './1.png';
 
 const Paper = () => {
   return (
     <div className="main">
+      <img src={pic} />
       <article>
         <h1>IoT Based Patient Health Monitoring System</h1>
         <p>
