@@ -1,34 +1,52 @@
-import './Font.css'
-
+import "./Font.css";
 const Font = () => {
-    return (
-        <div>
-            <h1>Serving fonts</h1>
-            <hr />
-            <section>
-                <h2>Research</h2>
-                <p>I have gone through <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#generating_the_required_code">MDN docs</a> to know the process of how a font can be delivered to a client (browser) by making a request to the server</p>
-            </section>
-            <section>
-                <br />
-                <h2>Give me a font</h2>
-                <p>I have followed the below steps to configure the font</p>
-                <ol>
-                    <li>I have chosen God of War font from <a href='https://www.dafont.com/theme.php?cat=402'>dafont</a></li>
-                    <li>Downloaded the God of Font from the dafont website</li>
-                    <li>Extracted the files from the downloaded ZIP file</li>
-                    <li>File called <b>GODOFWAR.TTF</b> exists in the extracted ZIP file</li>
-                    <li>Copy the <b>GODOFWAR.TTF</b> in <code>'src'</code> folder in the React Project</li>
-                    <li>Now configure the index.css file with <code>@font-face</code> and <code>font-family</code> (for the html tag)</li>
-                    <li>In the <code>@font-face</code>, configure the <code>font-family</code> with a name as <code>font-family: "God of War";</code></li>
-                    <li>Also, congiure src url property of <code>@font-face</code> with the file, (<b>GODOFWAR.TTF</b>) we downloaded and copied to src folder as <code>src: url("GODOFWAR.TTF") format("woff2");</code></li>
-                    <li>In the above configuration step, we are formmating as woff2 as All major browsers support WOFF/WOFF2</li>
-                    <li>As a final step, we <code>html</code> tag with <code>font-family</code> property with the value of the name we have given in step 7 </li>
-
-                </ol>
-            </section>
-        </div>
-    );
-}
+  return (
+    <div>
+      <h1>
+        How to provide a particular font to a web visitor's browser when they
+        request it from your server.
+      </h1>
+      <hr/> 
+      <h2>Research methods</h2>
+       <hr/> 
+      <p>
+        First i have reffered a website called{" "}
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts">
+          web Fonts website
+        </a>
+      </p>
+      <h2>Give me Fonts </h2>
+      <hr/> 
+      <p>
+        To deliver a specific font to clients, i have followed the steps
+        discussed below
+      </p>
+      <ol>
+        <li>
+          then i have choosen a font of my desired choice from a a website
+          called <a href="https://www.dafont.com/">dafont</a> then i have
+          downloaded a font called "Sandler Trial" in a .zip format and unzip the
+          file
+        </li>
+        <li>
+          then, after copy the copy the <i>"Sandler Trial.otf"</i> file in our
+           <code>source</code> flder of our to make it access{" "}
+        </li>
+        <li>
+          then access <code>index.css </code>file and we can use the <code>@font-face</code> rule
+          in your CSS to define the font and specify the font file's location.
+        </li>
+        <li>
+          To deliver a specific font to clients, you can Then, apply the font to
+          specific HTML elements using the <code>font-family</code> property.
+        </li>
+        <li>
+          and i also configured the source url by using the following code
+          <p class="source">src: url("Sandler Trial.otf")format("woff2");</p>
+        </li>
+      </ol>
+    </div>
+  );
+};
 
 export default Font;
