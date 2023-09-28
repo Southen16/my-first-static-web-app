@@ -1,15 +1,13 @@
-
 @font-face {
-  font-family: "myFont";
-  src: url("Sandler Trial.otf")format("woff2");
+  font-family: "God of War";
+  src:
+    url("GODOFWAR.TTF") format("woff2");
 }
+
 
 html {
-  font-family: "myFont", "Bitstream Vera Serif", serif;
-}
-
-body {
   margin: 0;
+  font-family: "God of War";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,4 +16,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-

@@ -1,9 +1,11 @@
 import './App.css';
-import RouterModule from './Routes';
+import RoutesTree from './RoutesTree';
 
 function App() {
   return (
-    <RouterModule />
+    <div>
+      <RoutesTree />
+    </div>
   );
 }
 

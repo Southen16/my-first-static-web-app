@@ -8,14 +8,8 @@
     grid-template-columns: 1fr 1fr;
     height: 100%;
 }
-h1{
-    text-align:center;
-}
-.left-half{
+
+.left-half, .right-half {
     border: 0px;
     padding: 20px;
-}
-.right-half{
-    border:0px;
-    padding:20px;
 }
