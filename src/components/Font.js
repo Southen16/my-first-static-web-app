@@ -9,13 +9,14 @@ const Paper = () => {
           Y. Sowjanya | Nama Southen Kumar | Diviti Sandeep | Gummadi
           Harivardhan Reddy
         </p>
-        <p class="citations"> 
+        <p class="citations">
           <b>To Cite this Article</b>
           <br />
           Y. Sowjanya, Nama Southen Kumar, Diviti Sandeep, and Gummadi
-          Harivardhan Reddy. IoT Based Patient Health Monitoring System.<br></br>
+          Harivardhan Reddy. IoT Based Patient Health Monitoring System.
+          <br></br>
           International Journal for Modern Trends in Science and Technology
-          2022, 8(05), pp. 118-122.{" "}<br></br>
+          2022, 8(05), pp. 118-122. <br></br>
           <a href="https://doi.org/10.46501/IJMTST0805019">
             https://doi.org/10.46501/IJMTST0805019
           </a>
@@ -29,26 +30,25 @@ const Paper = () => {
         <hr /> {/* Added a '/' to self-close the <hr> tag */}
         <h2>ABSTRACT</h2>
         <p class="abst-ract">
-              There have been attempts to use modern technology in numerous
-              sectors to improve the quality of human life as technology has
-              improved and sensors have been miniaturized. One main area of
-              research that has been seen is the adoption of technology in the
-              healthcare sector. People who require healthcare services find
-              them to be prohibitively expensive, which is especially true in
-              poor countries. As a result, this initiative is an attempt to
-              address a contemporary healthcare issue in society. The main goal
-              of the project was to develop a telemedicine system. The first
-              phase was to use sensors to detect the patient's vital signs, the
-              second was to send the data to cloud storage, and the third was to
-              make the data available for remote viewing. The data may be seen
-              remotely, allowing a doctor or guardian to keep track of a
-              patient's health status while they are not on the hospital
-              premises.
-              <br></br>
-              <p class="Keywords">
-              Keywords: Healthcare monitoring system, Internet of things,
-              Sensors, ESP32
-              </p>
+          There have been attempts to use modern technology in numerous sectors
+          to improve the quality of human life as technology has improved and
+          sensors have been miniaturized. One main area of research that has
+          been seen is the adoption of technology in the healthcare sector.
+          People who require healthcare services find them to be prohibitively
+          expensive, which is especially true in poor countries. As a result,
+          this initiative is an attempt to address a contemporary healthcare
+          issue in society. The main goal of the project was to develop a
+          telemedicine system. The first phase was to use sensors to detect the
+          patient's vital signs, the second was to send the data to cloud
+          storage, and the third was to make the data available for remote
+          viewing. The data may be seen remotely, allowing a doctor or guardian
+          to keep track of a patient's health status while they are not on the
+          hospital premises.
+          <br></br>
+          <p class="Keywords">
+            Keywords: Healthcare monitoring system, Internet of things, Sensors,
+            ESP32
+          </p>
         </p>
         <hr /> {/* Added a '/' to self-close the <hr> tag */}
       </article>
