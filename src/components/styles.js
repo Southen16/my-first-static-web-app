@@ -1,7 +1,7 @@
 const Paper = () => {
-    return (
-      <pre>
-        {`
+  return (
+    <p>
+      {`
   .main {
     text-align: justify;
     padding: 10px;
@@ -95,9 +95,8 @@ const Paper = () => {
     color: yellowgreen;
   }
         `}
-      </pre>
-    );
-  };
-  
-  export default Paper;
-  
+    </p>
+  );
+};
+
+export default Paper;
