@@ -259,6 +259,7 @@ const Paper = () => {
       </div>
       <hr /> {/* Added a '/' to self-close the <hr> tag */}
     </div>
+    
   );
 };
 export default Paper;

@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Font from './components/Font';
+import styles from './components/styles';
 
 const RoutesTree = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/itc505/homework/4" element={<Font />} />
+        <Route path="/itc505/homework/4" element={<styles />} />
       </Routes>
     </Router>
   );

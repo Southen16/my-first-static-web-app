@@ -6,7 +6,7 @@ const RoutesTree = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/itc505/homework/4/styles.css" element={<styles />} />
+        <Route path="/itc505/homework/4/styles.css" element={<styles/>} />
       </Routes>
     </Router>
   );
